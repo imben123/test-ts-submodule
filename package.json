@@ -1,0 +1,15 @@
+{
+  "name": "test-ts-submodule",
+  "version": "1.0.0",
+  "description": "A collection of tooling for powering the Blackwell Chat,",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imben123/test-ts-submodule.git"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imben123/test-ts-submodule/issues"
+  },
+  "homepage": "https://github.com/imben123/test-ts-submodule#readme"
+}
