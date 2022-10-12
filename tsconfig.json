@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "module": "es6",
     "strict": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
@@ -8,10 +7,11 @@
     "moduleResolution": "node",
     "target": "es6",
     "lib": [
-      "es2021"
+      "es2021",
+      "dom" // required to use dependency papaparse
     ],
     "sourceMap": true,
     "outDir": "build"
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.mts"]
 }
