@@ -11,5 +11,14 @@
   "bugs": {
     "url": "https://github.com/imben123/test-ts-submodule/issues"
   },
-  "homepage": "https://github.com/imben123/test-ts-submodule#readme"
+  "homepage": "https://github.com/imben123/test-ts-submodule#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "npx tsc"
+  },
+  "main": "build/Foo.js",
+  "types": "build/Foo.d.ts"
 }
