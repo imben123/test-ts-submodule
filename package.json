@@ -11,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/imben123/test-ts-submodule/issues"
   },
-  "homepage": "https://github.com/imben123/test-ts-submodule#readme"
+  "homepage": "https://github.com/imben123/test-ts-submodule#readme",
+  "exports": {
+    "./src/Foo": "./src/Foo",
+    "./src/Bar": "./src/Bar"
+  }
 }
