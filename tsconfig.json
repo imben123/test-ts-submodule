@@ -2,11 +2,11 @@
   "ts-node": {
     // these options are overrides used only by ts-node
     "compilerOptions": {
-      "module": "commonjs"
+      "module": "ES6"
     }
   },
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "ES6",
     "strict": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
