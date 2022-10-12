@@ -1,4 +1,4 @@
-import Bar from "./Bar.js"
+import Bar from "./Bar"
 
 export default class Foo {
   bar = new Bar()
