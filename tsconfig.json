@@ -1,11 +1,4 @@
 {
-  "ts-node": {
-    // these options are overrides used only by ts-node
-    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
-    "compilerOptions": {
-      "module": "CommonJS"
-    }
-  },
   "compilerOptions": {
     "module": "CommonJS",
     "strict": true,
@@ -20,8 +13,7 @@
       "dom" // required to use dependency papaparse
     ],
     "sourceMap": true,
-    "outDir": "build",
-    "rootDir": "src"
+    "outDir": "build"
   },
   "include": ["**/*.ts"],
   "exclude": ["build"]
