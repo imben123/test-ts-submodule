@@ -20,7 +20,8 @@
       "dom" // required to use dependency papaparse
     ],
     "sourceMap": true,
-    "outDir": "build"
+    "outDir": "build",
+    "rootDir": "src"
   },
   "include": ["**/*.ts"],
   "exclude": ["build"]
