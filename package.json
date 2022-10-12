@@ -12,5 +12,6 @@
     "url": "https://github.com/imben123/test-ts-submodule/issues"
   },
   "homepage": "https://github.com/imben123/test-ts-submodule#readme",
-  "type": "module"
+  "type": "module",
+  "main": "src/Foo.js"
 }
