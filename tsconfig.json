@@ -1,12 +1,6 @@
 {
-  "ts-node": {
-    // these options are overrides used only by ts-node
-    "compilerOptions": {
-      "module": "ES6"
-    }
-  },
   "compilerOptions": {
-    "module": "ES6",
+    "module": "es6",
     "strict": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
