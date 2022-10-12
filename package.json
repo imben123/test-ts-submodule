@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/imben123/test-ts-submodule#readme",
   "exports": {
-    "./src/Foo": "./src/Foo",
-    "./src/Bar": "./src/Bar"
+    "./src/Foo.ts": "./src/Foo.ts",
+    "./src/Bar.ts": "./src/Bar.ts"
   }
 }
