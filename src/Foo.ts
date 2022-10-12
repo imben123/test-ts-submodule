@@ -1,4 +1,4 @@
-import Bar from "./Bar.mjs"
+import Bar from "./Bar.js"
 
 export default class Foo {
   bar = new Bar()
